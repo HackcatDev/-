@@ -9,7 +9,8 @@
       "masscan_bot/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Telegram.Bot": "15.7.1"
+          "Telegram.Bot": "15.7.1",
+          "srparser": "1.0.0"
         },
         "runtime": {
           "masscan_bot.dll": {}
@@ -726,6 +727,14 @@
             "fileVersion": "15.7.1.0"
           }
         }
+      },
+      "srparser/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "srparser.dll": {}
+        }
       }
     }
   },
@@ -1273,6 +1282,11 @@
       "sha512": "sha512-jIznYng1gO+F5XJBv1hZRKdL11BsixBrNY53gwjBAXbF17rYVlbMSJum4x1DPqc4RqxhgWBt6g6qifa9XEXOwg==",
       "path": "telegram.bot/15.7.1",
       "hashPath": "telegram.bot.15.7.1.nupkg.sha512"
+    },
+    "srparser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
